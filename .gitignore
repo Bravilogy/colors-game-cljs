@@ -1,0 +1,7 @@
+/*.log
+.shadow-cljs/
+/target
+/*-init.clj
+/resources/public/js/compiled
+node_modules/
+out

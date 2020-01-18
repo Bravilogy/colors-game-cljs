@@ -1,0 +1,7 @@
+language: clojure
+script: npx shadow-cljs release app
+deploy:
+  provider: surge
+  project: ./resources/public/
+  domain: frequent-scarecrow.surge.sh
+  skip_cleanup: true
