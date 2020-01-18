@@ -1,5 +1,7 @@
 language: clojure
 script: npx shadow-cljs release app
+before_install:
+  - npm install
 deploy:
   provider: surge
   project: ./resources/public/

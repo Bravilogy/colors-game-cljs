@@ -1,26 +1,25 @@
-# Colours Game [![Build Status](https://travis-ci.org/Bravilogy/colours-game-clojure.svg?branch=master)](https://travis-ci.org/Bravilogy/colours-game-clojure)
+# Colors Game [![Build Status](https://travis-ci.org/Bravilogy/colors-game-cljs.svg?branch=master)](https://travis-ci.org/Bravilogy/colors-game-cljs)
 
 ## Development Mode
+This project uses `shadow-cljs`.
 
 ### Run application:
 
 ```
-lein clean
-lein figwheel dev
+npx shadow-cljs watch app
 ```
 
-Figwheel will automatically push cljs changes to the browser.
+shadow-cljs will automatically push cljs changes to the browser.
 
-Wait a bit, then browse to [http://localhost:3449](http://localhost:3449).
+Wait a bit, then browse to [http://localhost:8280](http://localhost:8280).
 
 ## Production Build
 
 
-To compile clojurescript to javascript:
+To compile the project:
 
 ```
-lein clean
-lein cljsbuild once min
+npx shadow-cljs release app
 ```
 
 ## See it in action
