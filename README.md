@@ -23,4 +23,4 @@ npx shadow-cljs release app
 ```
 
 ## See it in action
-https://frequent-scarecrow.surge.sh
+https://riddle-me-this.surge.sh
