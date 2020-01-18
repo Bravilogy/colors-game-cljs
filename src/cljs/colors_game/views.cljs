@@ -87,7 +87,7 @@
             :margin-top       "180px"}}
    [:div.row>div.col-12.text-center
     [:h2 "Welcome to this awesome game!"]
-    [:p "Your objective is simple: select the colour it says you should select."]
+    [:p "Your objective is simple: select the color it says you should select."]
     [:p [:strong "Remember"] " you have just a few seconds to do so."
      [:br]
      "Time is ticking and ticking, ticking..."]]

@@ -1,6 +1,14 @@
 language: clojure
-install:
-  - npm install
+jdk:
+  - openjdk8
+env:
+  - NODE_VERSION="9"
+cache:
+  directories:
+    - "node_modules"
+before_install:
+  - nvm install $NODE_VERSION
+install: npm install
 script: npx shadow-cljs release app
 deploy:
   provider: surge
